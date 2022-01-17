@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Illegale Straßenrennen</title>
+        <style>
+            @font-face {
+                font-family: Proxima;
+                src: url('./fonts/proxima_nova.otf');
+            }
+            a {
+                color: #E6E6E6;
+                text-decoration: none;
+            }
+            a:visited {
+                color: #E6E6E6;
+                text-decoration: none;
+            }
+            a:hover {
+                color: #E6E6E6;
+                opacity: 50%;
+            }
+            ::-webkit-scrollbar {
+                width: 10px;
+            }
+            ::-webkit-scrollbar-track {
+                background: #081017
+            }
+            ::-webkit-scrollbar-thumb {
+                border-radius: 5px;
+                background: #0E1923;
+            }
+            ::-webkit-scrollbar-thumb:hover {
+                background: #0E1923;
+            }
+        </style>
+        
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="shortcut icon" href="./bilder/inhalt/icon.jpg"/>
+        <link rel="stylesheet" href="./css/slideshow.css">
+        <script src="./javascript/slideshow.js"></script>
+    </head>
+    <body style="background-image: url(./bilder/hintergrund/background.jpg); background-repeat: no-repeat; background-size: 100%; background-attachment: fixed; background-color: #081017; overflow-x: hidden; min-width: 100%; overflow: hidden;" onload="currentSlide(1)"> <!--Hintergrundbild-->
+        <div style="margin-left: auto; margin-right: auto; background-color: #101820FF; width: 50%; height: auto; margin-top: 3%; border-radius: 10px;">
+            <div style="background-size: 100%; width: 100%; height: 15%; top:0; background-image: url(./bilder/inhalt/header.jpg); background-repeat: no-repeat; background-position: center; border-top-left-radius: 10px; border-top-right-radius: 10px; -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));"></div> <!--Header-->
+            <div style="font-family: Proxima; font-weight: lighter; font-size: xx-large; margin: 3% auto 3%; text-align: center;"> <!--Naviagtion-->
+                <ul style="list-style: none; display: inline; text-decoration: none; color: #E6E6E6; max-width: 100%;">
+                    <li style="display: inline;"><a href="./index.html">Home&nbsp&nbsp</a></li>
+                    <li style="display: inline"><a href="./autos.html">Autos&nbsp&nbsp</a></li>
+                    <li style="display: inline"><a href="./tuningteile.html">Tuning&nbsp&nbsp</a></li>
+                    <li style="display: inline"><a href="./preisgelder.html">Preisgelder&nbsp&nbsp</a></li>
+                </ul>
+            </div>
+            <div style="width: 90%; margin-left: auto; margin-right: auto; height: auto;"> <!--Hauptinhalt-->
+                <hr>
+                <br>
+                <div style="color: #E6E6E6; font-family: Proxima;" >
+                    <h3>Top 10 Beliebteste Autos für Straßenrennen</h3>
+                    <p><i>Klicke auf Pfeile um das Bild zu welchseln</i></p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <!--Slideshow-->
+        
+        <div class="slideshow-container" style="margin-top: 1%;">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 10</div>
+                <img src="./bilder/autos/bmwe30m3.png" style="width:100%;">
+                <div class="text">BMW 30 M3</div>
+              </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 10</div>
+                <img src="./bilder/autos/fordmustand1962.png" style="width:100%">
+                <div class="text">Ford Mustang 1962</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 10</div>
+              <img src="./bilder/autos/nissanskyliner34.png" style="width:100%">
+              <div class="text">Nissan SkyLine R34</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 10</div>
+                <img src="./bilder/autos/toyotasupramk4.png" style="width:100%">
+                <div class="text">Toyota Supra MK4</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">5 / 10</div>
+            <img src="./bilder/autos/nissansilvia.png" style="width:100%">
+            <div class="text">Nissan Silvia</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">6 / 10</div>
+            <img src="./bilder/autos/mitsubishievo.png" style="width:100%">
+            <div class="text">Mitsubishi Evo</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">7 / 10</div>
+            <img src="./bilder/autos/mazdarx.png" style="width:100%">
+            <div class="text">Mazda RX-7</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">8 / 10</div>
+            <img src="./bilder/autos/nissan240sxse.png" style="width:100%">
+            <div class="text">Nissan 240 SX SE</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">9 / 10</div>
+            <img src="./bilder/autos/bmw2002turbo.png" style="width:100%;">
+            <div class="text">BWM 2002 Turbo</div>
+            </div>
+
+            <div class="mySlides fade">
+            <div class="numbertext">10 / 10</div>
+            <img src="./bilder/autos/bmwm3.png" style="width:100%">
+            <div class="text">BMW M3</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            
+            <div style="text-align:center">
+                
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+                <span class="dot" onclick="currentSlide(5)"></span> 
+                <span class="dot" onclick="currentSlide(6)"></span> 
+                <span class="dot" onclick="currentSlide(7)"></span> 
+                <span class="dot" onclick="currentSlide(8)"></span> 
+                <span class="dot" onclick="currentSlide(9)"></span> 
+                <span class="dot" onclick="currentSlide(10)"></span> 
+            </div>
+        </div>
+    </body>
+</html>
